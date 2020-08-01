@@ -1,24 +1,16 @@
-# casino
+# HOW TO PLAY ON LOCAL
 
-## Project setup
+## Download Project
+```
+git clone git@github.com:j0tw/casino.git
+```
+
+### Install Dependencies
 ```
 yarn install
 ```
 
-### Compiles and hot-reloads for development
+### Execute Game
 ```
-yarn serve
+yarn dev
 ```
-
-### Compiles and minifies for production
-```
-yarn build
-```
-
-### Lints and fixes files
-```
-yarn lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
