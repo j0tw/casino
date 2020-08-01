@@ -3,12 +3,13 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "serve": "vue-cli-service serve",
+    "dev": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
     "core-js": "^3.6.5",
+    "gsap": "^3.4.2",
     "vue": "^2.6.11"
   },
   "devDependencies": {
@@ -23,8 +24,12 @@
     "eslint-plugin-promise": "^4.2.1",
     "eslint-plugin-standard": "^4.0.0",
     "eslint-plugin-vue": "^6.2.2",
+    "pixi-display": "^1.1.1",
+    "pixi-projection": "^0.3.12",
+    "pixi.js": "^5.3.2",
     "sass": "^1.26.5",
     "sass-loader": "^8.0.2",
+    "shake.js": "^1.2.2",
     "vue-template-compiler": "^2.6.11"
   }
 }
