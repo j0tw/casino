@@ -572,7 +572,7 @@ export default {
     },
     checkUseCoin (useCoin) {
       if (useCoin === '') {
-
+        // empty
       } else if (this.maxCoin > 0 && useCoin <= 1) {
         this.useCoin = 1
       } else if (this.maxCoin === 0 && useCoin < 0) {
